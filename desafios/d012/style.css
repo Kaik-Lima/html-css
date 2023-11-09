@@ -41,23 +41,30 @@ article>p {
     color: black;
     font-family: var(--fonte2);
     font-size: 1.5em;
-    margin: 0px;
+    margin: 0px 0px 0px 30px;
 }
 p.special{
     color: white;
     text-shadow: 2px 2px black;
     background-color: rgba(0, 0, 0, 0.458);
     display: inline-block;
+    margin: 0px;
 }
 
 article.fundo {
     width: 100%;
     max-height: 600px;
-    padding: 50px;
+    max-width: 97.4%;
+    padding: 40px 0px 40px 40px;
     box-shadow: inset 10px 6px 25px rgba(0, 0, 0, 0.67);
 }
 article#first {
     background: black url(imagens/background001.jpg) no-repeat fixed;
     background-size: cover;
     background-position: right center;
+}
+article#second {
+    background: white url(imagens/background002.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center center;
 }
